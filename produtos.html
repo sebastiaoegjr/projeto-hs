@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<html lang="pt-br"></html>
+
+<head>
+    <title>Barbearia H.S.</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/top-bot.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Mate SC' rel='stylesheet'>
+    <meta charset="utf-8">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="sobre.html">Sobre Nós</a></li>
+              <li><a href="index.html"><img src="img/iconHS.png"></a></li>
+              <li><a href="produtos.html">Produtos</a></li>
+              <li><a href="associacao.html">Associe-se</a></li>
+            </ul>
+        </nav>
+        <h3>PRODUTOS</h3>
+    </header>
+    <main>
+        <h3>
+            Nossa linha de produtos resgata a cultura do “modernly classic”, onde a tradição se integra à tecnologia no desenvolvimento de cada produto.
+        </h3>
+        <div id="myBtnContainer">
+        <p>Filtros:
+            <button class="active btn botao" id="tudo" onclick="mudaCor(this)"> Tudo</button>
+            <button class="btn botao" id="shampoo" onclick="mudaCor(this)">Shampoos</button>
+            <button class="btn botao" id="condicionador" onclick="mudaCor(this)">Condicionadores</button>
+            <button class="btn botao" id="creme" onclick="mudaCor(this)">Cremes</button>
+            <button class="btn botao" id="pomada" onclick="mudaCor(this)">Pomadas</button>
+        </p>
+          </div>
+          <br>
+    <div id="todos">
+        <div class="conjunto shampoo">
+            <div class="card" style="width: 50%;">
+                <img class="card-img-top" src="img/shampoo-1.jpg" alt="Shampoo">
+                <div class="card-body">
+                  <p class="card-text">SHAMPOO</p>
+                </div>
+              </div>
+              <div class="card" style="width: 50%;">
+                <img class="card-img-top" src="img/shampoo-2.png" alt="Shampoo">
+                <div class="card-body">
+                  <p class="card-text">SHAMPOO</p>
+                </div>
+              </div>
+        </div>
+        <div class="cojunto pomada">
+            <div class="card" style="width: 50%;">
+                <img class="card-img-top" src="img/pomada-1.jpg" alt="Pomada">
+                <div class="card-body">
+                  <p class="card-text">POMADAS</p>
+                </div>
+              </div>
+              <div class="card" style="width: 50%;">
+                <img class="card-img-top" src="img/pomada-2.jpg" alt="Pomada">
+                <div class="card-body">
+                  <p class="card-text">POMADAS</p>
+                </div>
+              </div>
+        </div>
+        <div class="conjunto condicionador">
+            <div class="card" style="width: 50%;">
+                <img class="card-img-top" src="img/condicionador-1.jpg" alt="Condicionador">
+                <div class="card-body">
+                  <p class="card-text">CONDICIONADOR</p>
+                </div>
+              </div>
+              <div class="card" style="width: 50%;">
+                <img class="card-img-top" src="img/condicionador-2.jpg" alt="Condicionador">
+                <div class="card-body">
+                  <p class="card-text">CONDICIONADOR</p>
+                </div>
+              </div>
+        </div>
+        <div class="conjunto creme">
+            <div class="card" style="width: 50%;">
+                <img class="card-img-top" src="img/creme-1.jpg" alt="Creme">
+                <div class="card-body">
+                  <p class="card-text">CREME</p>
+                </div>
+              </div>
+              <div class="card" style="width: 50%;">
+                <img class="card-img-top" src="img/creme-2.png" alt="Creme">
+                <div class="card-body">
+                  <p class="card-text">CREME</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <p>
+        
+    </p>
+    </main>
+    <footer id="rodape">
+        <nav class="menuRodape">
+            <ul>
+                <li><a href="https://www.github.com/sebastiaoegjr" target="_blank"><img src="img/git.png" width="45px" alt="GitHub"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="index.html"><img src="img/iconHS.png" width="70px"></a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="associacao.html">Associe-se</a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" width="25px" alt="Perfil no Instagram"></a></li>
+            </ul>
+        </nav>
+        <p>&copy; Copyright 2020 – Barbearia H.S. Todos os direitos reservados.</p>
+      </footer>
+      <script src="js/jquery-3.5.1.min.js"></script>
+      <script src="js/js-bootstrap/bootstrap.min.js"></script>
+      <script src="js/jQuery-Mask-Plugin-master/dist/jquery.mask.min.js"></script>
+      <script src="js/produtos.js"></script>
+</body>
+
+
+</html>

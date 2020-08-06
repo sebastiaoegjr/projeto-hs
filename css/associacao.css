@@ -1,0 +1,24 @@
+main{
+    background-image: url(/img/fundomain.jpg);
+    font-family: 'Mate SC', 'Questrial';
+    font-size: 22px;
+    padding-right: 10%;
+    padding-left:10% ;
+    padding-bottom: 5%;
+
+}
+main h1{
+    font-family: 'Calligraffitti', 'Charm';
+    font-size: 350%;
+    padding-top: 30px;
+}
+main p{
+    font-family: 'Mate SC', 'Questrial';
+    font-size: 22px;
+}
+header h3{
+        font-family: 'Calligraffitti', 'Charm';
+}
+.form-group{
+    padding-bottom: 20px;
+}

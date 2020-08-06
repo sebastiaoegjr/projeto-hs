@@ -1,0 +1,61 @@
+html, body{
+    margin: 0;
+  }
+  body{
+    text-align: center;
+  }
+header { /* topo da página*/
+    width: 100%;
+    min-height: 39rem;
+    background-image: url("/img/imgfundoheader.png");
+    background-size: cover;
+}
+header h3{
+    color:white;
+    
+}
+.menu ul {
+    background:transparent;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline; /*Opções do menu lado a lado*/
+}
+
+.menu ul li a {
+    color: white;
+    padding: 1px 30px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    border-top: 6px solid transparent;
+    font-size: 120%;
+    font-weight:bold;
+    
+}
+
+.menu ul li a:hover {/*efeito ao passar o mouse*/
+    transition: 500ms;
+    background-color: transparent;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: #c58422;
+}
+footer{
+    color: #c58422;
+    width: 100%;
+    min-height: 15rem;
+    position: absolute;
+    background-color: black;
+    }
+    .menuRodape {
+        width: 100%;
+        text-align: center;
+    }
+    .menuRodape  ul li {
+        display: inline; /*Opções do menu lado a lado*/
+    }
+    .menuRodape  ul li:hover {
+        list-style-type: none;
+        display: inline;
+    }

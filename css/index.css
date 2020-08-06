@@ -1,0 +1,100 @@
+
+  .slide-controller:nth-child(1):checked ~ .slide-show .slides-list{--selected-item: 0;}
+  .slide-controller:nth-child(2):checked ~ .slide-show .slides-list{--selected-item: 1;}
+  .slide-controller:nth-child(3):checked ~ .slide-show .slides-list{--selected-item: 2;}
+  .slide-controller:nth-child(4):checked ~ .slide-show .slides-list{--selected-item: 3;}
+  
+  .slide-show{
+    overflow: hidden;
+  }
+  
+  .slides-list{
+    --selected-item: 1;
+    --total-items: 4;
+    list-style-type: none;
+    margin: 100px 0;
+    padding: 0;
+    position: relative;
+    left: calc(var(--selected-item) * -100%);
+    width: calc(var(--total-items) * 100%);
+    transition: left 1.5s cubic-bezier(0.6, -0.5, 0.2, 1);
+    
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+  input[type="radio"] {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+  main{
+    background-image: url(/img/fundomain.jpg);
+    min-height: 40%;
+
+}
+.texto-slide{
+    float: right;
+    max-width: 50%;
+    font-family: 'Cinzel Decorative', 'Dosis';
+    font-size: 150%;
+}
+.texto-slide h2{
+    font-family: 'Calligraffitti', 'Charm';
+    font-size: 350%;
+}
+section{
+    background-image: url(/img/fundosection.jpg);
+    font-family: 'Calligraffitti', 'Charm';
+    min-height: 40rem;
+    color: white;
+    padding-left: 10% ;
+    padding-right: 10%;
+}
+section h1{
+    font-family: 'Calligraffitti', 'Charm';
+    font-size: 350%;
+    padding-top: 30px;
+}
+
+.card{
+  float: left;
+}
+.card p,h5{
+  color: black;
+  font-family: 'Mate SC', 'Questrial';
+  font-size: 130%;
+
+}
+.dica{
+  clear: both;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+aside{
+  background-image: url(/img/fundomain.jpg);
+  min-height: 40rem;
+  font-family: 'Cinzel Decorative', 'Dosis';
+  padding-right: 10%;
+  padding-left: 10%;
+}
+aside p{
+  font-family: 'Mate SC', 'Questrial';
+  font-size: 25px;
+}
+aside h1{
+  font-family: 'Calligraffitti', 'Charm';
+  padding-top: 30px;
+  font-size: 350%;
+}
+.modal-content{
+  background-image: url(/img/fundomain.jpg);
+}
+.modal-content p{
+  font-family: 'Mate SC', 'Questrial';
+  font-size: 130%;
+}
+.modal-content h2,h3{
+  font-family: 'Calligraffitti', 'Charm';
+}
