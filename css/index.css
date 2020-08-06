@@ -29,7 +29,7 @@
     transform: scale(1.5);
 }
   main{
-    background-image: url(/img/fundomain.jpg);
+    background-image: url(img/fundomain.jpg);
     min-height: 40%;
 
 }
@@ -44,7 +44,7 @@
     font-size: 350%;
 }
 section{
-    background-image: url(/img/fundosection.jpg);
+    background-image: url(img/fundosection.jpg);
     font-family: 'Calligraffitti', 'Charm';
     min-height: 40rem;
     color: white;
@@ -73,7 +73,7 @@ section h1{
   font-weight: bolder;
 }
 aside{
-  background-image: url(/img/fundomain.jpg);
+  background-image: url(img/fundomain.jpg);
   min-height: 40rem;
   font-family: 'Cinzel Decorative', 'Dosis';
   padding-right: 10%;
@@ -89,7 +89,7 @@ aside h1{
   font-size: 350%;
 }
 .modal-content{
-  background-image: url(/img/fundomain.jpg);
+  background-image: url(img/fundomain.jpg);
 }
 .modal-content p{
   font-family: 'Mate SC', 'Questrial';

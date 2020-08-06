@@ -7,7 +7,7 @@ html, body{
 header { /* topo da página*/
     width: 100%;
     min-height: 39rem;
-    background-image: url("/img/imgfundoheader.png");
+    background-image: url("img/imgfundoheader.png");
     background-size: cover;
 }
 header h3{
