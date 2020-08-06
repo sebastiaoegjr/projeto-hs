@@ -1,5 +1,5 @@
 main{
-    background-image: url(img/fundomain.jpg);
+    background-image: url(/img/fundomain.jpg);
     font-family: 'Mate SC', 'Questrial';
     font-size: 22px;
     padding-right: 10%;
@@ -43,7 +43,7 @@ button:hover{
     font-size: 100%;
 }
 .card-img-top:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 2s;
     box-shadow: black;
 }
